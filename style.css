@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+}
+
+
+/* ================= HOME ================= */
+
+.home {
+    min-height: 100vh;
+    padding-top: 130px;
+    padding-bottom: 80px;
+
+    background: linear-gradient(
+        135deg,
+        #0d6efd,
+        #6610f2
+    );
+
+    color: white;
+}
+
+
+.home h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.home h1 span {
+    color: #ffe082;
+}
+
+
+/* ================= CAROUSEL ================= */
+
+.slide {
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    color: white;
+}
+
+
+.slide1 {
+    background: #198754;
+}
+
+
+.slide2 {
+    background: #dc3545;
+}
+
+
+.slide3 {
+    background: #fd7e14;
+}
+
+
+/* ================= SECTION ================= */
+
+.section {
+    padding: 90px 0;
+}
+
+
+.judul {
+    text-align: center;
+
+    font-weight: bold;
+
+    margin-bottom: 35px;
+}
+
+
+/* ================= CARD ================= */
+
+.card {
+    border: none;
+
+    border-radius: 15px;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+
+    transition: 0.3s;
+}
+
+
+/* ================= DETAIL JQUERY ================= */
+
+.detail {
+    display: none;
+
+    background: #f1f1f1;
+
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+
+/* ================= FORM ================= */
+
+.form-control {
+    padding: 12px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #212529;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .slide {
+        height: 280px;
+    }
+
+}
